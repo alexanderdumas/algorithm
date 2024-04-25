@@ -119,10 +119,8 @@ def get_txt_tags(file_name):
         trie.insert(line_list)
    
     print(trie.top())
-    print(trie.next(["高中英语"]))
-    print(trie.next(["高中英语","语音"]))
-    print(trie.next(["高中英语","语音","拼读规则"]))
-    print(trie.next(["高中英语","语音","拼读规则", "元音的读音与拼写"]))
+    print(trie.next(["电磁学"]))
+    print(trie.next(["电磁学","静电场及其应用"]))
     
     # 层序遍历
     result = trie.level_order()
